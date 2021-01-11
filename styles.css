@@ -29,7 +29,7 @@ button {
   text-align: center;
   background: #e0afa0;
   padding: 2px 6px 0px;
-  display: block;
+  display: inline-block;
   margin: 10px auto;
 }
 .city {
@@ -66,7 +66,6 @@ button {
   padding: 19px 0px;
 }
 
-
 ::placeholder {
   text-align: center;
   color: #463f3a;
@@ -75,5 +74,9 @@ button {
 #location-selector {
   color: #463f3a;
   font-size: 12px;
+  margin: 0 auto;
 }
 
+#search-box {
+  padding: 10px;
+}
